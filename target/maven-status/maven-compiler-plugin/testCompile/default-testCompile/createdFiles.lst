@@ -1,0 +1,5 @@
+commonUtils\commonUtils.class
+stepDefinitions\loanCalcStepDef.class
+runner\TestRunner.class
+pages\LoanCalculatorPage.class
+stepDefinitions\ColumnEnum.class

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.28 sec <<< FAILURE!
+ANZ borrowing calculator for the given details #2(ANZ borrowing calculator)  Time elapsed: 11.436 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<4[7]9,000> but was:<4[1]9,000>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.loanCalcStepDef.verifyBorrowingEstimate(loanCalcStepDef.java:92)
+	at ?.verify the borrowing estimate(file:///C:/Guru/Workspace/InfosysInterview/src/test/resources/loanCalc.feature:10)
+
